@@ -8,7 +8,7 @@ console.log('My name is ' + studentName);
 console.log('I have ' + pets + ' pets.');
 console.log('Fun fact: ' + funFact);
 
-studentName = 'Placeholder';
+studentName = 'Darren';
 pets = 'Placeholder';
 funFact = 'Placeholder';
 
