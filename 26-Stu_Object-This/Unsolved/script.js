@@ -1,5 +1,8 @@
+
+// describes the window and its properties.
 console.log(this);
 
+// describes the object win
 function helloThis() {
   console.log('Inside this function, this is ' + this);
 }
@@ -20,3 +23,5 @@ var investor = {
     },
   },
 };
+
+helloThis();
