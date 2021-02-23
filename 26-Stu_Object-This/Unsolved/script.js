@@ -8,7 +8,7 @@ function helloThis() {
 }
 
 //Looks at the parent object and returns the age instead of having to declare
-//that you're looking at the child object instead. 
+//that you're looking at the child object instead. Will log 20
 var child = {
   age: 10,
   ageTenYears: function () {
@@ -16,7 +16,7 @@ var child = {
   },
 };
 
-//
+//calls 5000 from the initialInvestment variable and multiplies it by 1.15 for a total of 5750.
 var investor = {
   name: 'Cash Saver',
   investment: {
@@ -28,3 +28,7 @@ var investor = {
 };
 
 helloThis()
+
+child.ageTenYears();
+
+investor.investment.investmentGrowth();

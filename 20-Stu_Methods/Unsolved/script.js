@@ -9,7 +9,9 @@ console.log(constellations);
 planets.pop();
 console.log(planets);
 
-var galaxy = constellations + planets;
+// var galaxy = constellations + planets; This is bad because it changes them to just a string instead of a bigger array.
+
+var galaxy = constellations.concat(planets);
 console.log(galaxy);
 
 var bigStar = star.toUpperCase();
